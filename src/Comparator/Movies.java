@@ -1,3 +1,5 @@
+package Comparator;
+
 public class Movies {
 
     String name, genre;

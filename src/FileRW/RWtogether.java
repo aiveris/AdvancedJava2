@@ -1,3 +1,5 @@
+package FileRW;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -6,7 +8,7 @@ public class RWtogether {
     public static void main(String[] args) throws Exception {
 
         FileInputStream fis = new FileInputStream("myFile.txt");
-        FileOutputStream fos = new FileOutputStream("C:\\Users\\Dell\\Downloads\\RWtogether.txt");
+        FileOutputStream fos = new FileOutputStream("C:\\Users\\aiver\\Downloads\\FileRW.RWtogether.txt");
 
         int i=0;
         while((i=fis.read()) != -1){

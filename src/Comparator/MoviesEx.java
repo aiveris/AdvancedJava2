@@ -1,10 +1,11 @@
+package Comparator;
+
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class MoviesEx {
-
-
 
     public static void printMovieList(List<Movies> tempList){
         for(Movies m : tempList){
@@ -43,6 +44,8 @@ public class MoviesEx {
         printMovieList(moviesList);
         System.out.println("=============4=============");
 
+        moviesList.sort(Comparator.comparing(Movies::getName));
+        printMovieList(moviesList);
 
     }
 }

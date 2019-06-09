@@ -1,3 +1,5 @@
+package FileRW;
+
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
@@ -69,7 +71,7 @@ public class FileStuff {
         // }
 
         Path f1 = Paths.get("myFile.txt");
-        Path f2 = Paths.get("C:\\Users\\Dell\\Downloads\\myCopy.txt");
+        Path f2 = Paths.get("C:\\Users\\aiver\\Downloads\\myCopy.txt");
 
         System.out.println("File name :"+ f1.getFileName() + "....|...." + f2.getFileName());
         System.out.println("Absolute path:" +f1.toAbsolutePath() + "....|...." + f2.toAbsolutePath());
@@ -80,7 +82,7 @@ public class FileStuff {
         System.out.println(currentPath.toAbsolutePath());
 
 
-        Path path = Paths.get("C:\\Users\\Dell\\Downloads\\myCopy.txt");
+        Path path = Paths.get("C:\\Users\\aiver\\Downloads\\myCopy.txt");
         try {
             Files.delete(path);
         } catch (IOException e) {

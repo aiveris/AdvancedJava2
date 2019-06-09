@@ -13,7 +13,7 @@ public class Queuex {
         q.add("Mrs. 55");
         q.add("Mrs. 66");
         q.add("Mr. 6");
-        //q.offer(object); is used as a safer way of adding elements in case full capcity has already been reached
+        //q.offer(object); is used as a safer way of adding elements in case full capacity has already been reached
         System.out.println(q);
         System.out.println(q.size());
         System.out.println("=====================0");

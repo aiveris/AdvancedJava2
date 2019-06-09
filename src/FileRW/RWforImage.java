@@ -1,3 +1,5 @@
+package FileRW;
+
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.nio.file.Path;
@@ -7,7 +9,7 @@ public class RWforImage {
     public static void main(String[] args) throws Exception {
         //from downloads
         FileInputStream fis = new FileInputStream("Wolf.png");
-        FileOutputStream fos = new FileOutputStream("C:\\Users\\Dell\\Downloads\\Wolverine.png");
+        FileOutputStream fos = new FileOutputStream("C:\\Users\\aiver\\Downloads\\Wolverine.png");
 
         int i=0;
         while((i=fis.read()) != -1){
